@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mztOpXV2T6CZgyTcQg5Pz2X2nq" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BookKeepingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BookKeeping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeremy.bookkeeping.BookKeepingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+</project>
