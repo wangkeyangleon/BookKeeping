@@ -60,9 +60,21 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +88,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.BookKeepingApplication">
+    <configuration name="BookKeepingApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookKeeping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeremy.bookkeeping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jeremy.bookkeeping" />
+      <option name="MAIN_CLASS_NAME" value="com.jeremy.bookkeeping.BookKeepingApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookKeepingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="BookKeeping" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeremy.bookkeeping.BookKeepingApplication" />
@@ -84,6 +112,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookKeepingApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,7 +130,8 @@
       <updated>1610508217431</updated>
       <workItem from="1610508218605" duration="1786000" />
       <workItem from="1610594950441" duration="405000" />
-      <workItem from="1610598972745" duration="4631000" />
+      <workItem from="1610598972745" duration="10724000" />
+      <workItem from="1610610882809" duration="1461000" />
     </task>
     <servers />
   </component>

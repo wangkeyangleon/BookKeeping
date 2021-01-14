@@ -1,5 +1,6 @@
 package com.jeremy.bookkeeping.bean;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,11 +18,12 @@ import lombok.ToString;
 @NoArgsConstructor
 @Data
 @ToString
+@TableName("user")
 public class User {
-    private Long user_id;
-    private String user_account;
-    private String user_name;
-    private String user_email;
-    private String user_gender;
-    private String user_password;
+    private Integer id;
+    private String userAccount;
+    private String userName;
+    private String userEmail;
+    private String userGender;
+    private String userPassword;
 }
