@@ -1,11 +1,11 @@
-package com.jeremy.bookkeeping.model;
+package com.jeremy.bookkeeping.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import java.math.BigInteger;
+
 
 /**
  * @program: book-keeping
@@ -18,7 +18,7 @@ import java.math.BigInteger;
 @Data
 @ToString
 public class User {
-    private BigInteger user_id;
+    private Long user_id;
     private String user_account;
     private String user_name;
     private String user_email;

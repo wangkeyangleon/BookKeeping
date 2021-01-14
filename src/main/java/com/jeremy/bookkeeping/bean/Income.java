@@ -1,4 +1,4 @@
-package com.jeremy.bookkeeping.model;
+package com.jeremy.bookkeeping.bean;
 
 
 import lombok.AllArgsConstructor;
@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import java.math.BigInteger;
 import java.util.Date;
 
 /**
@@ -20,7 +19,7 @@ import java.util.Date;
 @NoArgsConstructor
 @ToString
 public class Income {
-    private BigInteger in_id;
+    private Long in_id;
     private String in_type;
     private Date in_beginTime;
     private Date in_endTime;

@@ -1,11 +1,10 @@
-package com.jeremy.bookkeeping.model;
+package com.jeremy.bookkeeping.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import java.math.BigInteger;
 import java.util.Date;
 
 /**
@@ -19,7 +18,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Data
 public class Expenditure {
-    private BigInteger ex_id;
+    private Long ex_id;
     private String ex_type;
     private long ex_money;
     private Date ex_time;
