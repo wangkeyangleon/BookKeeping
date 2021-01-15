@@ -47,6 +47,13 @@ public class UserController {
         return "login";
     }
 
+
+    /**
+     * post the user input to check login information
+     * @param user get the usr information
+     * @param model send the wrong message to the web page
+     * @return
+     */
     @PostMapping("/login")
     public String homePage(User user,Model model){
         log.info("not change the password {}",user.toString());
@@ -85,8 +92,21 @@ public class UserController {
         }
     }
 
+    /**
+     * get the homepage
+     * @return
+     */
     @GetMapping("/homepage.html")
     public String homepage(){
         return "homepage";
+    }
+
+    /**
+     * get the registration page
+     * @return
+     */
+    @GetMapping("/register")
+    public String registration(){
+        return "registration";
     }
 }
