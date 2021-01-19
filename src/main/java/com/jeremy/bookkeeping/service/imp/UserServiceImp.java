@@ -27,4 +27,15 @@ public class UserServiceImp extends ServiceImpl<UserMapper, User> implements Use
             return true;
         }
     }
+
+    @Override
+    public Boolean registration(User user) {
+        User user1 = userMapper.findUserByAccount(user.getUserAccount());
+        if (user1!=null){
+            return false;
+        }else {
+            userMapper.register(user);
+            return true;
+        }
+    }
 }

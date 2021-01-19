@@ -24,19 +24,22 @@
 <div class="container">
 
 
-    <form class="form-signin" method="post">
+    <form class="form-signin" method="post" th:action="@{/registration}">
 
         <div class="form-signin-heading text-center">
             <h1 class="sign-title">Registration</h1>
             <img src="images/login-logo.png" alt=""/>
         </div>
         <div class="login-wrap">
+            <label style="color: #1CAF9A" th:text="${success}"></label>
+            <label style="color: #1CAF9A" th:text="${failure}"></label>
             <input type="text" name="userAccount" class="form-control" placeholder="User Account" autofocus>
             <input type="text" name="userName" class="form-control" placeholder="User Name" autofocus>
             <input type="text" name="userEmail" class="form-control" placeholder="User Email" autofocus>
             <input type="text" name="userGender" class="form-control" placeholder="User Gender" autofocus>
             <input type="password" name="userPassword" class="form-control" placeholder="Password">
-            <input type="password" name="userPassword" class="form-control" placeholder="Repeat your Password">
+            <input type="password" name="passwordRepeat" class="form-control" placeholder="Repeat your Password">
+            <label style="color: #1CAF9A" th:text="${password}"></label>
             <button class="btn btn-lg btn-login btn-block" type="submit">
                 <i class="fa fa-check"></i>
             </button>

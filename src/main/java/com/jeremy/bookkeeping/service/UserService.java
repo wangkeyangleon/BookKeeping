@@ -12,4 +12,6 @@ import com.jeremy.bookkeeping.bean.User;
  **/
 public interface UserService extends IService<User> {
     public Boolean login(User user);
+
+    public Boolean registration(User user);
 }
